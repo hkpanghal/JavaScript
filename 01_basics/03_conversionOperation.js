@@ -133,3 +133,50 @@ console.table([typeof knowledge, typeof knowledge1,typeof knowledge2,typeof know
 // │    2    │  'string'   │
 // │    3    │  'boolean'  │
 // └─────────┴─────────────┘
+
+
+// ********************************* operations ***********************
+// basic operations
+
+console.log(1+2)
+console.log(1-2)
+console.log(1/2)
+console.log(1%2)
+
+// o/p
+// 3
+// -1
+// 0.5
+// 1
+
+console.log("1"+2)
+console.log("1"+2+2)
+console.log(2+2+"1")
+console.log("hans" + " kumar")
+
+
+// o/p
+// 12
+// 122
+// 41
+// hans kumar
+
+let level = 1;
+console.log(level++);
+console.log(++level);
+console.log(level--);
+console.log(--level);
+// o/p
+// 1
+// 3
+// 3
+// 1
+
+console.log(true);
+console.log(+true);
+console.log(-true);
+
+// o/p
+// true
+// 1
+// -1
